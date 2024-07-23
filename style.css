@@ -1,0 +1,119 @@
+
+/* This is to edit the bg */
+body{
+    background-image: url(bg/ccc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    margin: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(65, 30, 104);
+}
+/* This moves objects to left or right*/
+main{
+    margin-left: 400px;
+    margin-right: 525px;
+    
+}
+/*edits header, bg color */
+h1{
+    background-color: rgb(76, 43, 226);
+    font-family:Margarine, verdana, arial;
+    text-align: center;
+    margin-top: 0px;
+    border-style: solid;
+    
+}
+
+@font-face{
+src: url(fonts/Margarine/Margarine-Regular.ttf);
+font-family:Margarine;
+}
+/* edits paragraphs and fonts (about me page)  */
+p{
+    font-family: Margarine, verdana, arial;
+    color:white;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    border: 5px solid rgb(255, 255, 255)
+    
+}
+p2{
+    font-family: Margarine, verdana, arial;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    border: 5px solid rgb(255, 255, 255)
+}
+/* navigation bar */
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 21px;
+    margin-top: 0px;
+    overflow: hidden;
+    border-style: outset;
+    border-width: 9px;
+    border-color: rgb(83, 43, 226);
+    background-color: rgb(199, 153, 252);
+    align-self: center;
+}
+/*navigation fonts and style editing*/
+.navbar a{
+    font-family: Margarine, verdana, arial;
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(116, 39, 126);
+    border-style:outset;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}    
+/* hovers over image*/
+.navbar a:hover{
+    background-color: rgb(97, 31, 122);
+
+}
+/* makes my navigation move different directions*/ 
+.navbar li{
+    float: left;
+}
+/* my images displayed*/
+.gallery{
+    display: inline-block;
+    margin: 5px;
+    border: 1px rgb(57, 45, 167) solid;
+}
+.gallery:hover{
+border: 5px solid rgb(84, 73, 182);
+}  
+/* images customization*/
+.gallery img{
+ border: 5px solid rgb(65, 36, 131);   
+ max-width:100%;
+ height: 300px;
+ 
+}
+/* gifs, images ect */
+#img1{
+ position: fixed;
+ top: 100px;
+ left: 100px;
+} 
+#img2{
+ position: fixed;
+ top: 100px;
+ right: 100px;
+ margin-right: 120px;
+} 
+
+
+
+
+
+
+

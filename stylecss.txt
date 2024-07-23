@@ -1,0 +1,72 @@
+body{
+    background-color: blueviolet;
+    margin: 200px;
+    border-style: 7px;
+
+}
+main{
+    margin-right: 20px;
+    
+    
+
+}
+h1{
+    font-family: verdana, arial;
+    margin: 0px;
+}
+
+@font-face {
+    src: url(fonts/Margarine/Margarine-Regular.ttf);
+    font-family:Margarine;
+}
+.navbar ul{
+    font-family: Margarine,verdana, arial;
+    font-size: large;
+    list-style-type: none;
+    padding: 300px;
+    padding-left: 300px;
+    margin-bottom: auto;
+    overflow: hidden;
+   
+
+}
+.navbar a{
+    color: rgb(255, 255, 255);
+    margin-right: 9px;
+    text-decoration: none;
+    padding: 15px;
+    display: grid;
+    text-align: center;
+    align-items: right;
+    border-style: outset;
+    border-width: 9px;
+    height: 25px;
+    width: 80px;
+    
+    
+    
+    
+
+}
+.navbar a:hover{
+    background-color: rgb(85, 31, 155);
+}
+.navbar li{
+    float: inline-start
+}
+.gallery{
+    display: flex;
+    top: 20px;
+   
+    
+    
+}
+
+
+.galleryhover{
+    border: 1px solid grey;
+}
+.gallery img{
+    width: 100px;
+    height: 100px;
+    margin:4px;
