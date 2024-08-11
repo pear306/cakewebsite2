@@ -14,19 +14,56 @@
     <nav class="navbar">
         <ul>
             <li><a href="about.html">about</a></li>
-            <li><a href="2D art.html">2D art</a></li>
-            <li><a href="3D art.html">3D art</a></li>
-            <li><a href="doodles ect.html">doodles ect</a></li>
+            <li><a href="art and animation.html">art and animation</a></li>
+            <li><a href="3D.html">3D</a></li>
+            <li><a href="ocs/">ocs</a></li>
             <li><a href="Contact.html">contact</a></li>
           </ul>
         </nav>
        <h1> Contact Form </h1>
-       <input type="email" name="email" placeholder="Email Address">
-       <input type="text" name="Name" placeholder="Name">
-       <input type="text" name="subject" placeholder="Subject">
-       <textarea rows="5" cols= "60" name="message" placeholder="Enter text" autocomplete="off" required>
-       <button type="submit">Send</button>
-            
+       <link href="contact-form.css" rel="stylesheet">
+
+       <div class="fcf-body">
+       
+           <div id="fcf-form">
+           
+       
+           <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+               
+               <div class="fcf-form-group">
+                   <label for="Name" class="fcf-label"> Name</label>
+                   <div class="fcf-input-group">
+                       <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                   </div>
+               </div>
+       
+               <div class="fcf-form-group">
+                   <label for="Email" class="fcf-label">Email address</label>
+                   <div class="fcf-input-group">
+                       <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                   </div>
+               </div>
+       
+               <div class="fcf-form-group">
+                   <label for="Message" class="fcf-label">Message</label>
+                   <div class="fcf-input-group">
+                       <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                   </div>
+               </div>
+       
+               <div class="fcf-form-group">
+                   <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+               </div>
+       
+               <div class="fcf-credit" id="fcf-credit">
+               </div>
+       
+           </form>
+           </div>
+       
+       </div>
+       
+    
     
 
 
