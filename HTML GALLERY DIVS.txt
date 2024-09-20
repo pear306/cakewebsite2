@@ -1,0 +1,66 @@
+
+    <body> 
+        <div id="loading"></div>
+    
+        <div class="gallery"> 
+            <a target="_blank" href="art/agent4order.png" data-lightbox="myart"> 
+                <img src="art/agent4order.png" alt="side order artwork" title="05/03/24">
+             </a>
+        </div>
+        
+
+
+
+        <div class="gallery">
+             <a target ="blank" href="art/24_02_2021.png"data-lightbox="myart">
+                <img src="art/24_02_2021.png" alt=" splatoon 3 fanart" title="24/02/24">
+             </a>   
+        </div>  
+
+            <div class="gallery">
+                <a target="_blank" href="art/04_08_2018.png"data-lightbox="myart">
+                    <img src="art/04_08_2018.png" alt="?" title="04/08/18">
+                </a>
+        </div>
+        
+
+            
+    
+            <div class="gallery"> 
+                <a target="_blank" href="art/19_03_2020.png"data-lightbox="myart">
+                    <img src="art/19_03_2020.png" alt="splatoon oc">
+                </a>
+        </div>
+    
+    
+            <div class="gallery">
+                 <a target="_blank" href="art/15_11_2019 (2).png"> 
+                     <img src="art/15_11_2019 (2).png" alt="side order artwork"> 
+                </a>   
+        </div>  
+
+                <div class="gallery">
+                    <a target="_blank" href="art/seals.png"> 
+                        <img src="art/seals.png" alt="side order artwork" >   
+                   </a>   
+        </div>  
+
+              <div class="gallery">
+                <a target="_blank" href="art/06_06_2018 (2).png"> 
+                    <img src="art/06_06_2018 (2).png" alt="side order artwork" >   
+               </a>   
+          </div>
+
+          <div class="gallery">
+            <a target="_blank" href="art/151220.png"> 
+                <img src="art/151220.png" alt="side order artwork" >   
+           </a>   
+        </div>
+
+
+          
+        <div class="gallery">
+            <a target="_blank" href="art/06_09_2020.png"> 
+                <img src="art/06_09_2020.png" alt="side order artwork" >   
+           </a>   
+            </div>
